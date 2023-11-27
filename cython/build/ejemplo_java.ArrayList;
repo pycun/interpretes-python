@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+
+public class JavaExample {
+    public static void main(String[] args) {
+        // Creamos una instancia de la clase ArrayList de Java
+        ArrayList<String> lista = new ArrayList<String>();
+
+        // Agregamos elementos a la lista
+        lista.add("Manzana");
+        lista.add("Banana");
+        lista.add("Cereza");
+
+        // Imprimimos los elementos de la lista
+        for (String elemento : lista) {
+            System.out.println(elemento);
+        }
+    }
+}

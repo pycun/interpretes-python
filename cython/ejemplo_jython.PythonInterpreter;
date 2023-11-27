@@ -1,0 +1,14 @@
+# Importamos una clase de Java
+from java.util import ArrayList
+
+# Creamos una instancia de la clase ArrayList de Java
+lista = ArrayList()
+
+# Agregamos elementos a la lista
+lista.add("Manzana")
+lista.add("Banana")
+lista.add("Cereza")
+
+# Imprimimos los elementos de la lista
+for elemento in lista:
+    print(elemento)
